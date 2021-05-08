@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.title{
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container img {
+    object-fit: cover;
+    margin: 10px;
+    max-width: 100%;
+    opacity: 0.9;
+}
+
+.container img:hover{
+    transform: scale(0.98); 
+    opacity: 1;
+    transition: 0.5s ease;
+    background: #000
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  #modal-content {
+    background-color: rgba(0,0,0,0.8);
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+
+  /* The Close Button */
+  #close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  #close:hover,
+  #close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
