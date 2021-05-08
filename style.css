@@ -88,3 +88,7 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+
+img{
+  border-radius: 10px;
+}
