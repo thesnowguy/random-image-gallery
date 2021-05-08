@@ -15,6 +15,7 @@ for (let i = 0; i < rows * 3; i++) {
         modalImg.src = img.src
         modal.style.display = "block"
         modalContent.style.width = 'min-content'
+        modalContent.style.padding = '90px'
     })
     container.appendChild(img)
 }
@@ -25,7 +26,7 @@ function getRandomSize() {
 }
 
 function getRandomNum1() {
-    return Math.ceil(Math.random() * 10) + 600
+    return Math.floor(Math.random() * 10) + 500
 }
 
 
